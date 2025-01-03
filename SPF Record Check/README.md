@@ -1,6 +1,6 @@
 # SPF Record Check  
 
-This python script queries the specified DNS server(s) for text records that contain 'v=spf1' for a given domain.
+This python script queries the specified DNS server(s) for all SPF records for a given domain.
 
 ### Requirements:
 This script requires the following:
