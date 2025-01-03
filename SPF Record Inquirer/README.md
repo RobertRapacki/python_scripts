@@ -10,10 +10,11 @@ To use the script, run it at the command line using the folling syntax:
 
 
 ### Requirements:
-This script requires the following to be install on the system running the script:  
-1) Python3  
-2) pip  
-3) The dns.resolver Python module  
+This script requires the following:
+1) Installation of Python3  
+2) Installation of pip  
+3) Instalaion of The dns.resolver Python module
+4) Mark the script as executable  
 
 **To install Python3:**  
 - On RHEL and compatible systems: `sudo dnf install python3`  
@@ -27,3 +28,6 @@ This script requires the following to be install on the system running the scrip
 
 **To install the dns.resolver Python module:**
 - `pip install dnspython`
+
+**To mark the script as executable:**
+- `chmod +x spf_inquire.py`
