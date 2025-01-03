@@ -27,7 +27,7 @@ This script requires the following:
 
 ### Usage:
 To use the script, run it at the command line using the folling syntax:  
-`./spf_inquire.py example.org`  
+`./spf_check.py example.org`  
 
 ### Modifying the DNS servers which are queried:
 To modify the DNS servers which are queried, change the IP addresses in the resolver.nameservers variable:
