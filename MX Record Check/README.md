@@ -2,10 +2,6 @@
 
 This python script queries the specified DNS server(s) for all MX records for a given domain.
 
-### Usage:
-To use the script, run it at the command line using the folling syntax:  
-`./mx_check.py example.org`  
-
 ### Requirements:
 This script requires the following:
 1) Installation of Python3  
@@ -28,3 +24,14 @@ This script requires the following:
 
 **To mark the script as executable:**
 - `chmod +x mx_check.py`
+
+### Usage:
+To use the script, run it at the command line using the folling syntax:  
+`./mx_check.py example.org`  
+
+### Modifying the DNS servers which are queried:
+To modify the DNS servers which are queried, change the IP addresses in the resolver.nameservers variable:
+```
+# Specify the nameserver(s)
+resolver.nameservers = ['8.8.8.8', '8.8.4.4']
+```
