@@ -1,13 +1,6 @@
 # SPF Record Inquirer  
 
-This python script queries the specified DNS server(s) for text records that contain 'v=spf1' and prints them to the console.
-
-
-### Usage:
-To use the script, run it at the command line using the folling syntax:  
-`./spf_inquire.py example.org`  
-
-
+This python script queries the specified DNS server(s) for text records that contain 'v=spf1' for a given domain.
 
 ### Requirements:
 This script requires the following:
@@ -30,4 +23,11 @@ This script requires the following:
 - `pip install dnspython`
 
 **To mark the script as executable:**
-- `chmod +x spf_inquire.py`
+- `chmod +x spf_check.py`
+
+### Usage:
+To use the script, run it at the command line using the folling syntax:  
+`./spf_inquire.py example.org`  
+
+### Modifying the DNS servers which are queried:
+To modify the DNS servers which are queried, change
