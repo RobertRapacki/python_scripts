@@ -16,14 +16,14 @@ This script requires the following to be install on the system running the scrip
 3) The dns.resolver Python module  
 
 **To install Python3:**  
-> On RHEL and compatible systems: `sudo dnf install python3`  
-> On Debain and compatible systems: `sudo apt-get install python3`  
+- On RHEL and compatible systems: `sudo dnf install python3`  
+- On Debain and compatible systems: `sudo apt-get install python3`  
 
 
 **To install pip:**  
-> On RHEL and compatible systems: 'sudo dnf install pip'  
-> On Debian and compatible systems: 'sudo apt-get install pip'  
+- On RHEL and compatible systems: `sudo dnf install pip`
+- On Debian and compatible systems: `sudo apt-get install pip`
 
 
 **To install the dns.resolver Python module:**
-> `pip install dnspython`
+- `pip install dnspython`
