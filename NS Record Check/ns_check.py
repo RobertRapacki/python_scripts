@@ -7,7 +7,7 @@ def get_ns_record(domain):
     resolver = dns.resolver.Resolver()
 
     # Specify the nameserver(s)
-    resolver.nameservers = ['1.1.1.1']  # Cloudflare public DNS server
+    resolver.nameservers = ['8.8.8.8', '8.8.4.4']  # Cloudflare public DNS server
 
     # Perform a DNS query
     result = resolver.resolve(domain, 'NS')
